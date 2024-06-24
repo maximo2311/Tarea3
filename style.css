@@ -1,0 +1,101 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.32rem;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+nav {
+    max-height: 4.14rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+ul{
+    list-style: none;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    font-size: 1.56rem;
+}
+li{
+    text-decoration: underline;
+    margin-right: 0.625rem;
+}
+.logo {
+    height: 3rem;
+    position: absolute;
+    left: 1.875rem;
+    top: 1rem;
+}
+
+.hero {
+    height: 43.75rem;
+    background-image: url(fondo1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75rem;
+    flex-shrink: 4;
+}
+
+.hero-p {
+background-color: black;
+width: 75rem;
+}
+/* ojala funcione */
+.hero-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio{
+    padding: 1.1rem;
+}
+
+.contenedor2-f {
+    height: 31.25rem;
+    background-image: url(fondo2.jpg);
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 62.5rem;
+}
+
+
+.tea {
+    height: 12.5rem;
+    width: 18.75rem;
+}
+.caja {
+    text-align: center;
+    margin: 0.625rem;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.direccion {
+    background-color: black;
+    margin: 2.5rem;
+    width: 18.75rem;
+    opacity: 1;
+    line-height: 3rem;
+}
